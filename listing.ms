@@ -1,4 +1,5 @@
 objList = #()
+/* создание массива объектов сцены */
 for i in objects do (append objList i.name)
 rollout a "Copy object around"
 (
